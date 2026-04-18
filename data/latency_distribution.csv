@@ -1,0 +1,8 @@
+method,batch_size,network_transmission,preprocess,accumulation,inference,head,e2e
+mono,1,11.35,3.01,0,10.43,1.2,25.99
+mono-batch,1,11.28,3.21,0,10.74,1.23,26.46
+distributed,1,16.7,4.17,0,10.31,0.95,32.13
+mono-batch,2,10.78,3.18,10.87,11.91,1.05,37.79
+distributed,2,16.16,3.91,10.09,12.12,1.27,43.55
+mono-batch,4,10.39,3.17,17.31,20.1,1.27,52.24
+distributed,4,17.02,4.21,15.79,19.35,1.09,57.46

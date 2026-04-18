@@ -1,0 +1,4 @@
+ultralytics
+websockets
+names
+opencv-python

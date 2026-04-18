@@ -1,0 +1,391 @@
+2024-05-06 19:32:08,918 - INFO - config-offload-test - Testing the t_offload+t_reply+t_beta overall latency with FPS=30...total 600 frames, with 1 sender and 1 receiver
+2024-05-06 19:32:08,918 - INFO - config-offload-test - This running parameters: [{'ws_uris': ['ws://192.168.31.236:8765'], 'data_loader': <server.component.dataloader.ImageFPSDataLoader object at 0x7f96eaa8bdf0>}]
+2024-05-06 19:32:08,919 - INFO - peer - Peer 1 is created with 1 senders and 0 receivers.
+2024-05-06 19:32:09,921 - INFO - sender - Sender ws://192.168.31.236:8765 started
+2024-05-06 19:32:21,089 - INFO - sender - Processing time: 3.84 ms
+2024-05-06 19:32:21,090 - INFO - sender - End-to-end time: 17.14 ms
+2024-05-06 19:32:21,090 - INFO - sender - the below data only e2e and process time are valid
+2024-05-06 19:32:21,090 - INFO - sender - | sender num | sender fps | batch size | **e2e** latency (ms) | offload time | process time | reply time |
+2024-05-06 19:32:21,090 - INFO - sender - Average
+2024-05-06 19:32:21,090 - INFO - sender - | 1 | 30 | 1 | 17.14 | -6836.31 | 3.84 | 6849.61 |
+2024-05-06 19:32:21,090 - INFO - sender - 50%th percentile
+2024-05-06 19:32:21,091 - INFO - sender - | 1 | 30 | 1 | 16.52 | -6836.79 | 3.84 | 6849.52 |
+2024-05-06 19:32:21,091 - INFO - sender - 95%th percentile
+2024-05-06 19:32:21,092 - INFO - sender - | 1 | 30 | 1 | 22.27 | -6832.54 | 3.86 | 6850.81 |
+2024-05-06 19:32:21,092 - INFO - sender - 95% ave
+2024-05-06 19:32:21,092 - INFO - sender - | 1 | 30 | 1 | 16.42 | -6836.31 | 3.84 | 6849.61 |
+2024-05-06 19:32:21,092 - INFO - sender - Sender stopped
+2024-05-06 19:32:31,193 - INFO - config-offload-test - Testing the t_offload+t_reply+t_beta overall latency with FPS=60...total 600 frames, with 1 sender and 1 receiver
+2024-05-06 19:32:31,193 - INFO - config-offload-test - This running parameters: [{'ws_uris': ['ws://192.168.31.236:8765'], 'data_loader': <server.component.dataloader.ImageFPSDataLoader object at 0x7f2b0b1bbdf0>}]
+2024-05-06 19:32:31,193 - INFO - peer - Peer 1 is created with 1 senders and 0 receivers.
+2024-05-06 19:32:32,195 - INFO - sender - Sender ws://192.168.31.236:8765 started
+2024-05-06 19:32:39,028 - INFO - sender - Processing time: 3.79 ms
+2024-05-06 19:32:39,028 - INFO - sender - End-to-end time: 16.26 ms
+2024-05-06 19:32:39,029 - INFO - sender - the below data only e2e and process time are valid
+2024-05-06 19:32:39,029 - INFO - sender - | sender num | sender fps | batch size | **e2e** latency (ms) | offload time | process time | reply time |
+2024-05-06 19:32:39,029 - INFO - sender - Average
+2024-05-06 19:32:39,029 - INFO - sender - | 1 | 30 | 1 | 16.26 | -6837.14 | 3.79 | 6849.61 |
+2024-05-06 19:32:39,029 - INFO - sender - 50%th percentile
+2024-05-06 19:32:39,029 - INFO - sender - | 1 | 30 | 1 | 15.55 | -6837.83 | 3.84 | 6849.33 |
+2024-05-06 19:32:39,029 - INFO - sender - 95%th percentile
+2024-05-06 19:32:39,030 - INFO - sender - | 1 | 30 | 1 | 30.87 | -6822.18 | 3.86 | 6851.11 |
+2024-05-06 19:32:39,030 - INFO - sender - 95% ave
+2024-05-06 19:32:39,030 - INFO - sender - | 1 | 30 | 1 | 15.09 | -6837.14 | 3.78 | 6849.61 |
+2024-05-06 19:32:39,030 - INFO - sender - Sender stopped
+2024-05-06 19:32:51,826 - INFO - config-offload-test - Testing the t_offload+t_reply+t_beta overall latency with FPS=120...total 600 frames, with 1 sender and 1 receiver
+2024-05-06 19:32:51,826 - INFO - config-offload-test - This running parameters: [{'ws_uris': ['ws://192.168.31.236:8765'], 'data_loader': <server.component.dataloader.ImageFPSDataLoader object at 0x7f9ab21a7df0>}]
+2024-05-06 19:32:51,826 - INFO - peer - Peer 1 is created with 1 senders and 0 receivers.
+2024-05-06 19:32:52,828 - INFO - sender - Sender ws://192.168.31.236:8765 started
+2024-05-06 19:32:57,245 - INFO - sender - Processing time: 3.77 ms
+2024-05-06 19:32:57,246 - INFO - sender - End-to-end time: 15.75 ms
+2024-05-06 19:32:57,246 - INFO - sender - the below data only e2e and process time are valid
+2024-05-06 19:32:57,246 - INFO - sender - | sender num | sender fps | batch size | **e2e** latency (ms) | offload time | process time | reply time |
+2024-05-06 19:32:57,246 - INFO - sender - Average
+2024-05-06 19:32:57,246 - INFO - sender - | 1 | 30 | 1 | 15.75 | -6838.89 | 3.77 | 6850.86 |
+2024-05-06 19:32:57,246 - INFO - sender - 50%th percentile
+2024-05-06 19:32:57,247 - INFO - sender - | 1 | 30 | 1 | 13.14 | -6840.58 | 3.84 | 6849.48 |
+2024-05-06 19:32:57,247 - INFO - sender - 95%th percentile
+2024-05-06 19:32:57,248 - INFO - sender - | 1 | 30 | 1 | 27.66 | -6826.10 | 3.86 | 6856.89 |
+2024-05-06 19:32:57,248 - INFO - sender - 95% ave
+2024-05-06 19:32:57,248 - INFO - sender - | 1 | 30 | 1 | 14.54 | -6838.89 | 3.77 | 6850.86 |
+2024-05-06 19:32:57,248 - INFO - sender - Sender stopped
+2024-05-06 19:33:03,017 - INFO - config-offload-test - Testing the t_offload+t_reply+t_beta overall latency with FPS=180...total 600 frames, with 1 sender and 1 receiver
+2024-05-06 19:33:03,018 - INFO - config-offload-test - This running parameters: [{'ws_uris': ['ws://192.168.31.236:8765'], 'data_loader': <server.component.dataloader.ImageFPSDataLoader object at 0x7fd772583df0>}]
+2024-05-06 19:33:03,018 - INFO - peer - Peer 1 is created with 1 senders and 0 receivers.
+2024-05-06 19:33:04,019 - INFO - sender - Sender ws://192.168.31.236:8765 started
+2024-05-06 19:33:07,493 - INFO - sender - Processing time: 3.25 ms
+2024-05-06 19:33:07,493 - INFO - sender - End-to-end time: 14.55 ms
+2024-05-06 19:33:07,493 - INFO - sender - the below data only e2e and process time are valid
+2024-05-06 19:33:07,493 - INFO - sender - | sender num | sender fps | batch size | **e2e** latency (ms) | offload time | process time | reply time |
+2024-05-06 19:33:07,493 - INFO - sender - Average
+2024-05-06 19:33:07,493 - INFO - sender - | 1 | 30 | 1 | 14.55 | -6840.64 | 3.25 | 6851.93 |
+2024-05-06 19:33:07,494 - INFO - sender - 50%th percentile
+2024-05-06 19:33:07,495 - INFO - sender - | 1 | 30 | 1 | 14.43 | -6841.66 | 3.38 | 6852.34 |
+2024-05-06 19:33:07,495 - INFO - sender - 95%th percentile
+2024-05-06 19:33:07,495 - INFO - sender - | 1 | 30 | 1 | 22.32 | -6831.08 | 3.84 | 6854.70 |
+2024-05-06 19:33:07,495 - INFO - sender - 95% ave
+2024-05-06 19:33:07,496 - INFO - sender - | 1 | 30 | 1 | 13.78 | -6840.64 | 3.22 | 6851.93 |
+2024-05-06 19:33:07,496 - INFO - sender - Sender stopped
+2024-05-06 19:33:15,418 - INFO - config-offload-test - Testing the t_offload+t_reply+t_beta overall latency with FPS=240...total 600 frames, with 1 sender and 1 receiver
+2024-05-06 19:33:15,419 - INFO - config-offload-test - This running parameters: [{'ws_uris': ['ws://192.168.31.236:8765'], 'data_loader': <server.component.dataloader.ImageFPSDataLoader object at 0x7f77edcebdf0>}]
+2024-05-06 19:33:15,419 - INFO - peer - Peer 1 is created with 1 senders and 0 receivers.
+2024-05-06 19:33:16,421 - INFO - sender - Sender ws://192.168.31.236:8765 started
+2024-05-06 19:33:19,353 - INFO - sender - Processing time: 2.50 ms
+2024-05-06 19:33:19,353 - INFO - sender - End-to-end time: 13.75 ms
+2024-05-06 19:33:19,353 - INFO - sender - the below data only e2e and process time are valid
+2024-05-06 19:33:19,353 - INFO - sender - | sender num | sender fps | batch size | **e2e** latency (ms) | offload time | process time | reply time |
+2024-05-06 19:33:19,353 - INFO - sender - Average
+2024-05-06 19:33:19,353 - INFO - sender - | 1 | 30 | 1 | 13.75 | -6840.04 | 2.50 | 6851.29 |
+2024-05-06 19:33:19,354 - INFO - sender - 50%th percentile
+2024-05-06 19:33:19,355 - INFO - sender - | 1 | 30 | 1 | 11.27 | -6842.74 | 2.46 | 6851.40 |
+2024-05-06 19:33:19,355 - INFO - sender - 95%th percentile
+2024-05-06 19:33:19,356 - INFO - sender - | 1 | 30 | 1 | 30.24 | -6825.32 | 3.80 | 6853.06 |
+2024-05-06 19:33:19,356 - INFO - sender - 95% ave
+2024-05-06 19:33:19,356 - INFO - sender - | 1 | 30 | 1 | 12.31 | -6840.04 | 2.43 | 6851.29 |
+2024-05-06 19:33:19,357 - INFO - sender - Sender stopped
+2024-05-06 19:33:24,809 - INFO - config-offload-test - Testing the t_offload+t_reply+t_beta overall latency with FPS=300...total 600 frames, with 1 sender and 1 receiver
+2024-05-06 19:33:24,810 - INFO - config-offload-test - This running parameters: [{'ws_uris': ['ws://192.168.31.236:8765'], 'data_loader': <server.component.dataloader.ImageFPSDataLoader object at 0x7ff2805fbdf0>}]
+2024-05-06 19:33:24,810 - INFO - peer - Peer 1 is created with 1 senders and 0 receivers.
+2024-05-06 19:33:25,812 - INFO - sender - Sender ws://192.168.31.236:8765 started
+2024-05-06 19:33:28,625 - INFO - sender - Processing time: 2.39 ms
+2024-05-06 19:33:28,625 - INFO - sender - End-to-end time: 11.58 ms
+2024-05-06 19:33:28,626 - INFO - sender - the below data only e2e and process time are valid
+2024-05-06 19:33:28,626 - INFO - sender - | sender num | sender fps | batch size | **e2e** latency (ms) | offload time | process time | reply time |
+2024-05-06 19:33:28,626 - INFO - sender - Average
+2024-05-06 19:33:28,626 - INFO - sender - | 1 | 30 | 1 | 11.58 | -6842.30 | 2.39 | 6851.49 |
+2024-05-06 19:33:28,626 - INFO - sender - 50%th percentile
+2024-05-06 19:33:28,627 - INFO - sender - | 1 | 30 | 1 | 10.63 | -6843.36 | 2.33 | 6851.41 |
+2024-05-06 19:33:28,627 - INFO - sender - 95%th percentile
+2024-05-06 19:33:28,628 - INFO - sender - | 1 | 30 | 1 | 19.21 | -6834.94 | 3.22 | 6853.43 |
+2024-05-06 19:33:28,628 - INFO - sender - 95% ave
+2024-05-06 19:33:28,628 - INFO - sender - | 1 | 30 | 1 | 10.79 | -6842.30 | 2.33 | 6851.49 |
+2024-05-06 19:33:28,628 - INFO - sender - Sender stopped
+2024-05-06 19:33:34,881 - INFO - config-offload-test - Testing the t_offload+t_reply+t_beta overall latency with FPS=360...total 600 frames, with 1 sender and 1 receiver
+2024-05-06 19:33:34,881 - INFO - config-offload-test - This running parameters: [{'ws_uris': ['ws://192.168.31.236:8765'], 'data_loader': <server.component.dataloader.ImageFPSDataLoader object at 0x7fe9b2267df0>}]
+2024-05-06 19:33:34,881 - INFO - peer - Peer 1 is created with 1 senders and 0 receivers.
+2024-05-06 19:33:35,883 - INFO - sender - Sender ws://192.168.31.236:8765 started
+2024-05-06 19:33:38,314 - INFO - sender - Processing time: 1.85 ms
+2024-05-06 19:33:38,314 - INFO - sender - End-to-end time: 12.23 ms
+2024-05-06 19:33:38,314 - INFO - sender - the below data only e2e and process time are valid
+2024-05-06 19:33:38,314 - INFO - sender - | sender num | sender fps | batch size | **e2e** latency (ms) | offload time | process time | reply time |
+2024-05-06 19:33:38,315 - INFO - sender - Average
+2024-05-06 19:33:38,315 - INFO - sender - | 1 | 30 | 1 | 12.23 | -6840.46 | 1.85 | 6850.84 |
+2024-05-06 19:33:38,315 - INFO - sender - 50%th percentile
+2024-05-06 19:33:38,316 - INFO - sender - | 1 | 30 | 1 | 8.71 | -6844.06 | 1.81 | 6850.85 |
+2024-05-06 19:33:38,316 - INFO - sender - 95%th percentile
+2024-05-06 19:33:38,317 - INFO - sender - | 1 | 30 | 1 | 33.60 | -6818.14 | 3.19 | 6852.41 |
+2024-05-06 19:33:38,317 - INFO - sender - 95% ave
+2024-05-06 19:33:38,317 - INFO - sender - | 1 | 30 | 1 | 10.35 | -6840.46 | 1.76 | 6850.84 |
+2024-05-06 19:33:38,317 - INFO - sender - Sender stopped
+2024-05-06 19:33:56,407 - INFO - config-offload-test - Testing the t_offload+t_reply+t_beta overall latency with FPS=420...total 600 frames, with 1 sender and 1 receiver
+2024-05-06 19:33:56,407 - INFO - config-offload-test - This running parameters: [{'ws_uris': ['ws://192.168.31.236:8765'], 'data_loader': <server.component.dataloader.ImageFPSDataLoader object at 0x7f2f90a2bdf0>}]
+2024-05-06 19:33:56,407 - INFO - peer - Peer 1 is created with 1 senders and 0 receivers.
+2024-05-06 19:33:57,409 - INFO - sender - Sender ws://192.168.31.236:8765 started
+2024-05-06 19:33:59,864 - INFO - sender - Processing time: 1.98 ms
+2024-05-06 19:33:59,864 - INFO - sender - End-to-end time: 11.46 ms
+2024-05-06 19:33:59,864 - INFO - sender - the below data only e2e and process time are valid
+2024-05-06 19:33:59,864 - INFO - sender - | sender num | sender fps | batch size | **e2e** latency (ms) | offload time | process time | reply time |
+2024-05-06 19:33:59,864 - INFO - sender - Average
+2024-05-06 19:33:59,864 - INFO - sender - | 1 | 30 | 1 | 11.46 | -6841.88 | 1.98 | 6851.36 |
+2024-05-06 19:33:59,865 - INFO - sender - 50%th percentile
+2024-05-06 19:33:59,866 - INFO - sender - | 1 | 30 | 1 | 9.12 | -6844.12 | 1.87 | 6851.26 |
+2024-05-06 19:33:59,866 - INFO - sender - 95%th percentile
+2024-05-06 19:33:59,867 - INFO - sender - | 1 | 30 | 1 | 27.77 | -6826.17 | 3.49 | 6852.96 |
+2024-05-06 19:33:59,867 - INFO - sender - 95% ave
+2024-05-06 19:33:59,867 - INFO - sender - | 1 | 30 | 1 | 10.27 | -6841.88 | 1.88 | 6851.36 |
+2024-05-06 19:33:59,867 - INFO - sender - Sender stopped
+2024-05-06 19:34:10,858 - INFO - config-offload-test - Testing the t_offload+t_reply+t_beta overall latency with FPS=480...total 600 frames, with 1 sender and 1 receiver
+2024-05-06 19:34:10,858 - INFO - config-offload-test - This running parameters: [{'ws_uris': ['ws://192.168.31.236:8765'], 'data_loader': <server.component.dataloader.ImageFPSDataLoader object at 0x7f04b4353df0>}]
+2024-05-06 19:34:10,858 - INFO - peer - Peer 1 is created with 1 senders and 0 receivers.
+2024-05-06 19:34:11,859 - INFO - sender - Sender ws://192.168.31.236:8765 started
+2024-05-06 19:34:13,968 - INFO - sender - Processing time: 1.55 ms
+2024-05-06 19:34:13,968 - INFO - sender - End-to-end time: 9.62 ms
+2024-05-06 19:34:13,968 - INFO - sender - the below data only e2e and process time are valid
+2024-05-06 19:34:13,968 - INFO - sender - | sender num | sender fps | batch size | **e2e** latency (ms) | offload time | process time | reply time |
+2024-05-06 19:34:13,968 - INFO - sender - Average
+2024-05-06 19:34:13,968 - INFO - sender - | 1 | 30 | 1 | 9.62 | -6842.66 | 1.55 | 6850.73 |
+2024-05-06 19:34:13,968 - INFO - sender - 50%th percentile
+2024-05-06 19:34:13,969 - INFO - sender - | 1 | 30 | 1 | 6.57 | -6845.52 | 1.52 | 6850.61 |
+2024-05-06 19:34:13,969 - INFO - sender - 95%th percentile
+2024-05-06 19:34:13,970 - INFO - sender - | 1 | 30 | 1 | 31.63 | -6820.47 | 2.40 | 6852.05 |
+2024-05-06 19:34:13,970 - INFO - sender - 95% ave
+2024-05-06 19:34:13,970 - INFO - sender - | 1 | 30 | 1 | 8.12 | -6842.66 | 1.44 | 6850.73 |
+2024-05-06 19:34:13,970 - INFO - sender - Sender stopped
+2024-05-06 19:34:27,091 - INFO - config-offload-test - Testing the t_offload+t_reply+t_beta overall latency with FPS=540...total 600 frames, with 1 sender and 1 receiver
+2024-05-06 19:34:27,091 - INFO - config-offload-test - This running parameters: [{'ws_uris': ['ws://192.168.31.236:8765'], 'data_loader': <server.component.dataloader.ImageFPSDataLoader object at 0x7f8578747df0>}]
+2024-05-06 19:34:27,092 - INFO - peer - Peer 1 is created with 1 senders and 0 receivers.
+2024-05-06 19:34:28,093 - INFO - sender - Sender ws://192.168.31.236:8765 started
+2024-05-06 19:34:30,236 - INFO - sender - Processing time: 1.64 ms
+2024-05-06 19:34:30,236 - INFO - sender - End-to-end time: 11.69 ms
+2024-05-06 19:34:30,236 - INFO - sender - the below data only e2e and process time are valid
+2024-05-06 19:34:30,236 - INFO - sender - | sender num | sender fps | batch size | **e2e** latency (ms) | offload time | process time | reply time |
+2024-05-06 19:34:30,236 - INFO - sender - Average
+2024-05-06 19:34:30,237 - INFO - sender - | 1 | 30 | 1 | 11.69 | -6841.34 | 1.64 | 6851.39 |
+2024-05-06 19:34:30,237 - INFO - sender - 50%th percentile
+2024-05-06 19:34:30,238 - INFO - sender - | 1 | 30 | 1 | 7.34 | -6845.20 | 1.59 | 6850.99 |
+2024-05-06 19:34:30,238 - INFO - sender - 95%th percentile
+2024-05-06 19:34:30,239 - INFO - sender - | 1 | 30 | 1 | 36.58 | -6818.60 | 3.26 | 6853.22 |
+2024-05-06 19:34:30,239 - INFO - sender - 95% ave
+2024-05-06 19:34:30,239 - INFO - sender - | 1 | 30 | 1 | 10.04 | -6841.34 | 1.53 | 6851.39 |
+2024-05-06 19:34:30,240 - INFO - sender - Sender stopped
+2024-05-06 19:34:35,878 - INFO - config-offload-test - Testing the t_offload+t_reply+t_beta overall latency with FPS=600...total 600 frames, with 1 sender and 1 receiver
+2024-05-06 19:34:35,878 - INFO - config-offload-test - This running parameters: [{'ws_uris': ['ws://192.168.31.236:8765'], 'data_loader': <server.component.dataloader.ImageFPSDataLoader object at 0x7fdceffe7df0>}]
+2024-05-06 19:34:35,879 - INFO - peer - Peer 1 is created with 1 senders and 0 receivers.
+2024-05-06 19:34:36,881 - INFO - sender - Sender ws://192.168.31.236:8765 started
+2024-05-06 19:34:38,963 - INFO - sender - Processing time: 1.58 ms
+2024-05-06 19:34:38,963 - INFO - sender - End-to-end time: 8.75 ms
+2024-05-06 19:34:38,963 - INFO - sender - the below data only e2e and process time are valid
+2024-05-06 19:34:38,963 - INFO - sender - | sender num | sender fps | batch size | **e2e** latency (ms) | offload time | process time | reply time |
+2024-05-06 19:34:38,963 - INFO - sender - Average
+2024-05-06 19:34:38,964 - INFO - sender - | 1 | 30 | 1 | 8.75 | -6843.94 | 1.58 | 6851.11 |
+2024-05-06 19:34:38,964 - INFO - sender - 50%th percentile
+2024-05-06 19:34:38,965 - INFO - sender - | 1 | 30 | 1 | 6.61 | -6845.94 | 1.56 | 6850.95 |
+2024-05-06 19:34:38,966 - INFO - sender - 95%th percentile
+2024-05-06 19:34:38,966 - INFO - sender - | 1 | 30 | 1 | 20.31 | -6832.10 | 2.45 | 6852.32 |
+2024-05-06 19:34:38,967 - INFO - sender - 95% ave
+2024-05-06 19:34:38,967 - INFO - sender - | 1 | 30 | 1 | 7.88 | -6843.94 | 1.49 | 6851.11 |
+2024-05-06 19:34:38,967 - INFO - sender - Sender stopped
+2024-05-06 19:34:47,274 - INFO - config-offload-test - Testing the t_offload+t_reply+t_beta overall latency with FPS=660...total 600 frames, with 1 sender and 1 receiver
+2024-05-06 19:34:47,274 - INFO - config-offload-test - This running parameters: [{'ws_uris': ['ws://192.168.31.236:8765'], 'data_loader': <server.component.dataloader.ImageFPSDataLoader object at 0x7fc23ea8fdf0>}]
+2024-05-06 19:34:47,274 - INFO - peer - Peer 1 is created with 1 senders and 0 receivers.
+2024-05-06 19:34:48,276 - INFO - sender - Sender ws://192.168.31.236:8765 started
+2024-05-06 19:34:50,352 - INFO - sender - Processing time: 1.59 ms
+2024-05-06 19:34:50,352 - INFO - sender - End-to-end time: 8.74 ms
+2024-05-06 19:34:50,352 - INFO - sender - the below data only e2e and process time are valid
+2024-05-06 19:34:50,352 - INFO - sender - | sender num | sender fps | batch size | **e2e** latency (ms) | offload time | process time | reply time |
+2024-05-06 19:34:50,352 - INFO - sender - Average
+2024-05-06 19:34:50,352 - INFO - sender - | 1 | 30 | 1 | 8.74 | -6844.61 | 1.59 | 6851.76 |
+2024-05-06 19:34:50,353 - INFO - sender - 50%th percentile
+2024-05-06 19:34:50,353 - INFO - sender - | 1 | 30 | 1 | 6.65 | -6846.16 | 1.56 | 6851.33 |
+2024-05-06 19:34:50,353 - INFO - sender - 95%th percentile
+2024-05-06 19:34:50,354 - INFO - sender - | 1 | 30 | 1 | 19.09 | -6837.25 | 2.10 | 6854.05 |
+2024-05-06 19:34:50,354 - INFO - sender - 95% ave
+2024-05-06 19:34:50,354 - INFO - sender - | 1 | 30 | 1 | 7.93 | -6844.61 | 1.53 | 6851.76 |
+2024-05-06 19:34:50,354 - INFO - sender - Sender stopped
+2024-05-06 19:35:02,529 - INFO - config-offload-test - Testing the t_offload+t_reply+t_beta overall latency with FPS=720...total 600 frames, with 1 sender and 1 receiver
+2024-05-06 19:35:02,529 - INFO - config-offload-test - This running parameters: [{'ws_uris': ['ws://192.168.31.236:8765'], 'data_loader': <server.component.dataloader.ImageFPSDataLoader object at 0x7f2fb761fdf0>}]
+2024-05-06 19:35:02,529 - INFO - peer - Peer 1 is created with 1 senders and 0 receivers.
+2024-05-06 19:35:03,531 - INFO - sender - Sender ws://192.168.31.236:8765 started
+2024-05-06 19:35:05,625 - INFO - sender - Processing time: 1.52 ms
+2024-05-06 19:35:05,625 - INFO - sender - End-to-end time: 13.75 ms
+2024-05-06 19:35:05,625 - INFO - sender - the below data only e2e and process time are valid
+2024-05-06 19:35:05,625 - INFO - sender - | sender num | sender fps | batch size | **e2e** latency (ms) | offload time | process time | reply time |
+2024-05-06 19:35:05,625 - INFO - sender - Average
+2024-05-06 19:35:05,625 - INFO - sender - | 1 | 30 | 1 | 13.75 | -6839.69 | 1.52 | 6851.93 |
+2024-05-06 19:35:05,626 - INFO - sender - 50%th percentile
+2024-05-06 19:35:05,627 - INFO - sender - | 1 | 30 | 1 | 7.09 | -6845.85 | 1.49 | 6851.57 |
+2024-05-06 19:35:05,627 - INFO - sender - 95%th percentile
+2024-05-06 19:35:05,627 - INFO - sender - | 1 | 30 | 1 | 41.71 | -6813.35 | 3.57 | 6854.22 |
+2024-05-06 19:35:05,628 - INFO - sender - 95% ave
+2024-05-06 19:35:05,628 - INFO - sender - | 1 | 30 | 1 | 11.66 | -6839.69 | 1.40 | 6851.93 |
+2024-05-06 19:35:05,628 - INFO - sender - Sender stopped
+2024-05-06 19:35:12,996 - INFO - config-offload-test - Testing the t_offload+t_reply+t_beta overall latency with FPS=780...total 600 frames, with 1 sender and 1 receiver
+2024-05-06 19:35:12,996 - INFO - config-offload-test - This running parameters: [{'ws_uris': ['ws://192.168.31.236:8765'], 'data_loader': <server.component.dataloader.ImageFPSDataLoader object at 0x7fb5f3c5bdf0>}]
+2024-05-06 19:35:12,996 - INFO - peer - Peer 1 is created with 1 senders and 0 receivers.
+2024-05-06 19:35:13,998 - INFO - sender - Sender ws://192.168.31.236:8765 started
+2024-05-06 19:35:16,077 - INFO - sender - Processing time: 1.54 ms
+2024-05-06 19:35:16,077 - INFO - sender - End-to-end time: 10.19 ms
+2024-05-06 19:35:16,077 - INFO - sender - the below data only e2e and process time are valid
+2024-05-06 19:35:16,077 - INFO - sender - | sender num | sender fps | batch size | **e2e** latency (ms) | offload time | process time | reply time |
+2024-05-06 19:35:16,077 - INFO - sender - Average
+2024-05-06 19:35:16,077 - INFO - sender - | 1 | 30 | 1 | 10.19 | -6843.08 | 1.54 | 6851.74 |
+2024-05-06 19:35:16,077 - INFO - sender - 50%th percentile
+2024-05-06 19:35:16,079 - INFO - sender - | 1 | 30 | 1 | 6.56 | -6846.43 | 1.51 | 6851.55 |
+2024-05-06 19:35:16,079 - INFO - sender - 95%th percentile
+2024-05-06 19:35:16,079 - INFO - sender - | 1 | 30 | 1 | 31.76 | -6822.44 | 2.57 | 6853.51 |
+2024-05-06 19:35:16,080 - INFO - sender - 95% ave
+2024-05-06 19:35:16,080 - INFO - sender - | 1 | 30 | 1 | 8.74 | -6843.08 | 1.44 | 6851.74 |
+2024-05-06 19:35:16,080 - INFO - sender - Sender stopped
+2024-05-06 19:35:26,094 - INFO - config-offload-test - Testing the t_offload+t_reply+t_beta overall latency with FPS=840...total 600 frames, with 1 sender and 1 receiver
+2024-05-06 19:35:26,094 - INFO - config-offload-test - This running parameters: [{'ws_uris': ['ws://192.168.31.236:8765'], 'data_loader': <server.component.dataloader.ImageFPSDataLoader object at 0x7fc185e23df0>}]
+2024-05-06 19:35:26,095 - INFO - peer - Peer 1 is created with 1 senders and 0 receivers.
+2024-05-06 19:35:27,097 - INFO - sender - Sender ws://192.168.31.236:8765 started
+2024-05-06 19:35:29,133 - INFO - sender - Processing time: 1.51 ms
+2024-05-06 19:35:29,134 - INFO - sender - End-to-end time: 8.70 ms
+2024-05-06 19:35:29,134 - INFO - sender - the below data only e2e and process time are valid
+2024-05-06 19:35:29,134 - INFO - sender - | sender num | sender fps | batch size | **e2e** latency (ms) | offload time | process time | reply time |
+2024-05-06 19:35:29,134 - INFO - sender - Average
+2024-05-06 19:35:29,134 - INFO - sender - | 1 | 30 | 1 | 8.70 | -6844.81 | 1.51 | 6851.99 |
+2024-05-06 19:35:29,134 - INFO - sender - 50%th percentile
+2024-05-06 19:35:29,136 - INFO - sender - | 1 | 30 | 1 | 6.42 | -6846.83 | 1.50 | 6851.77 |
+2024-05-06 19:35:29,136 - INFO - sender - 95%th percentile
+2024-05-06 19:35:29,137 - INFO - sender - | 1 | 30 | 1 | 21.85 | -6830.87 | 2.00 | 6853.57 |
+2024-05-06 19:35:29,137 - INFO - sender - 95% ave
+2024-05-06 19:35:29,137 - INFO - sender - | 1 | 30 | 1 | 7.56 | -6844.81 | 1.43 | 6851.99 |
+2024-05-06 19:35:29,137 - INFO - sender - Sender stopped
+2024-05-06 19:35:37,675 - INFO - config-offload-test - Testing the t_offload+t_reply+t_beta overall latency with FPS=900...total 600 frames, with 1 sender and 1 receiver
+2024-05-06 19:35:37,675 - INFO - config-offload-test - This running parameters: [{'ws_uris': ['ws://192.168.31.236:8765'], 'data_loader': <server.component.dataloader.ImageFPSDataLoader object at 0x7f4d4e2bfdf0>}]
+2024-05-06 19:35:37,675 - INFO - peer - Peer 1 is created with 1 senders and 0 receivers.
+2024-05-06 19:35:38,676 - INFO - sender - Sender ws://192.168.31.236:8765 started
+2024-05-06 19:35:40,650 - INFO - sender - Processing time: 1.41 ms
+2024-05-06 19:35:40,650 - INFO - sender - End-to-end time: 10.87 ms
+2024-05-06 19:35:40,650 - INFO - sender - the below data only e2e and process time are valid
+2024-05-06 19:35:40,650 - INFO - sender - | sender num | sender fps | batch size | **e2e** latency (ms) | offload time | process time | reply time |
+2024-05-06 19:35:40,650 - INFO - sender - Average
+2024-05-06 19:35:40,650 - INFO - sender - | 1 | 30 | 1 | 10.87 | -6843.16 | 1.41 | 6852.63 |
+2024-05-06 19:35:40,651 - INFO - sender - 50%th percentile
+2024-05-06 19:35:40,652 - INFO - sender - | 1 | 30 | 1 | 6.46 | -6846.84 | 1.36 | 6851.99 |
+2024-05-06 19:35:40,652 - INFO - sender - 95%th percentile
+2024-05-06 19:35:40,652 - INFO - sender - | 1 | 30 | 1 | 24.65 | -6831.65 | 1.95 | 6854.82 |
+2024-05-06 19:35:40,652 - INFO - sender - 95% ave
+2024-05-06 19:35:40,652 - INFO - sender - | 1 | 30 | 1 | 8.13 | -6843.16 | 1.32 | 6852.63 |
+2024-05-06 19:35:40,652 - INFO - sender - Sender stopped
+2024-05-06 19:35:47,284 - INFO - config-offload-test - Testing the t_offload+t_reply+t_beta overall latency with FPS=960...total 600 frames, with 1 sender and 1 receiver
+2024-05-06 19:35:47,284 - INFO - config-offload-test - This running parameters: [{'ws_uris': ['ws://192.168.31.236:8765'], 'data_loader': <server.component.dataloader.ImageFPSDataLoader object at 0x7f7cdaef3df0>}]
+2024-05-06 19:35:47,284 - INFO - peer - Peer 1 is created with 1 senders and 0 receivers.
+2024-05-06 19:35:48,285 - INFO - sender - Sender ws://192.168.31.236:8765 started
+2024-05-06 19:35:50,168 - INFO - sender - Processing time: 1.32 ms
+2024-05-06 19:35:50,168 - INFO - sender - End-to-end time: 8.60 ms
+2024-05-06 19:35:50,169 - INFO - sender - the below data only e2e and process time are valid
+2024-05-06 19:35:50,169 - INFO - sender - | sender num | sender fps | batch size | **e2e** latency (ms) | offload time | process time | reply time |
+2024-05-06 19:35:50,169 - INFO - sender - Average
+2024-05-06 19:35:50,169 - INFO - sender - | 1 | 30 | 1 | 8.60 | -6845.32 | 1.32 | 6852.60 |
+2024-05-06 19:35:50,169 - INFO - sender - 50%th percentile
+2024-05-06 19:35:50,170 - INFO - sender - | 1 | 30 | 1 | 6.38 | -6846.76 | 1.26 | 6851.79 |
+2024-05-06 19:35:50,170 - INFO - sender - 95%th percentile
+2024-05-06 19:35:50,171 - INFO - sender - | 1 | 30 | 1 | 16.74 | -6840.52 | 1.81 | 6855.04 |
+2024-05-06 19:35:50,171 - INFO - sender - 95% ave
+2024-05-06 19:35:50,172 - INFO - sender - | 1 | 30 | 1 | 7.66 | -6845.32 | 1.25 | 6852.60 |
+2024-05-06 19:35:50,172 - INFO - sender - Sender stopped
+2024-05-06 19:35:55,829 - INFO - config-offload-test - Testing the t_offload+t_reply+t_beta overall latency with FPS=1020...total 600 frames, with 1 sender and 1 receiver
+2024-05-06 19:35:55,829 - INFO - config-offload-test - This running parameters: [{'ws_uris': ['ws://192.168.31.236:8765'], 'data_loader': <server.component.dataloader.ImageFPSDataLoader object at 0x7f1d7ca33df0>}]
+2024-05-06 19:35:55,829 - INFO - peer - Peer 1 is created with 1 senders and 0 receivers.
+2024-05-06 19:35:56,831 - INFO - sender - Sender ws://192.168.31.236:8765 started
+2024-05-06 19:35:58,662 - INFO - sender - Processing time: 1.21 ms
+2024-05-06 19:35:58,663 - INFO - sender - End-to-end time: 10.97 ms
+2024-05-06 19:35:58,663 - INFO - sender - the below data only e2e and process time are valid
+2024-05-06 19:35:58,663 - INFO - sender - | sender num | sender fps | batch size | **e2e** latency (ms) | offload time | process time | reply time |
+2024-05-06 19:35:58,663 - INFO - sender - Average
+2024-05-06 19:35:58,663 - INFO - sender - | 1 | 30 | 1 | 10.97 | -6842.75 | 1.21 | 6852.52 |
+2024-05-06 19:35:58,663 - INFO - sender - 50%th percentile
+2024-05-06 19:35:58,664 - INFO - sender - | 1 | 30 | 1 | 6.20 | -6846.96 | 1.18 | 6851.92 |
+2024-05-06 19:35:58,664 - INFO - sender - 95%th percentile
+2024-05-06 19:35:58,665 - INFO - sender - | 1 | 30 | 1 | 33.78 | -6821.34 | 2.02 | 6854.48 |
+2024-05-06 19:35:58,665 - INFO - sender - 95% ave
+2024-05-06 19:35:58,665 - INFO - sender - | 1 | 30 | 1 | 9.47 | -6842.75 | 1.11 | 6852.52 |
+2024-05-06 19:35:58,666 - INFO - sender - Sender stopped
+2024-05-06 19:36:09,325 - INFO - config-offload-test - Testing the t_offload+t_reply+t_beta overall latency with FPS=1080...total 600 frames, with 1 sender and 1 receiver
+2024-05-06 19:36:09,325 - INFO - config-offload-test - This running parameters: [{'ws_uris': ['ws://192.168.31.236:8765'], 'data_loader': <server.component.dataloader.ImageFPSDataLoader object at 0x7fb73a733df0>}]
+2024-05-06 19:36:09,325 - INFO - peer - Peer 1 is created with 1 senders and 0 receivers.
+2024-05-06 19:36:10,327 - INFO - sender - Sender ws://192.168.31.236:8765 started
+2024-05-06 19:36:12,164 - INFO - sender - Processing time: 1.21 ms
+2024-05-06 19:36:12,164 - INFO - sender - End-to-end time: 7.99 ms
+2024-05-06 19:36:12,164 - INFO - sender - the below data only e2e and process time are valid
+2024-05-06 19:36:12,164 - INFO - sender - | sender num | sender fps | batch size | **e2e** latency (ms) | offload time | process time | reply time |
+2024-05-06 19:36:12,164 - INFO - sender - Average
+2024-05-06 19:36:12,165 - INFO - sender - | 1 | 30 | 1 | 7.99 | -6845.90 | 1.21 | 6852.69 |
+2024-05-06 19:36:12,165 - INFO - sender - 50%th percentile
+2024-05-06 19:36:12,165 - INFO - sender - | 1 | 30 | 1 | 5.58 | -6847.66 | 1.19 | 6852.05 |
+2024-05-06 19:36:12,165 - INFO - sender - 95%th percentile
+2024-05-06 19:36:12,165 - INFO - sender - | 1 | 30 | 1 | 22.51 | -6834.04 | 1.47 | 6855.16 |
+2024-05-06 19:36:12,166 - INFO - sender - 95% ave
+2024-05-06 19:36:12,166 - INFO - sender - | 1 | 30 | 1 | 7.04 | -6845.90 | 1.15 | 6852.69 |
+2024-05-06 19:36:12,166 - INFO - sender - Sender stopped
+2024-05-06 19:36:19,006 - INFO - config-offload-test - Testing the t_offload+t_reply+t_beta overall latency with FPS=1140...total 600 frames, with 1 sender and 1 receiver
+2024-05-06 19:36:19,007 - INFO - config-offload-test - This running parameters: [{'ws_uris': ['ws://192.168.31.236:8765'], 'data_loader': <server.component.dataloader.ImageFPSDataLoader object at 0x7ff512e2fdf0>}]
+2024-05-06 19:36:19,007 - INFO - peer - Peer 1 is created with 1 senders and 0 receivers.
+2024-05-06 19:36:20,009 - INFO - sender - Sender ws://192.168.31.236:8765 started
+2024-05-06 19:36:21,828 - INFO - sender - Processing time: 1.21 ms
+2024-05-06 19:36:21,828 - INFO - sender - End-to-end time: 9.06 ms
+2024-05-06 19:36:21,829 - INFO - sender - the below data only e2e and process time are valid
+2024-05-06 19:36:21,829 - INFO - sender - | sender num | sender fps | batch size | **e2e** latency (ms) | offload time | process time | reply time |
+2024-05-06 19:36:21,829 - INFO - sender - Average
+2024-05-06 19:36:21,829 - INFO - sender - | 1 | 30 | 1 | 9.06 | -6844.82 | 1.21 | 6852.67 |
+2024-05-06 19:36:21,829 - INFO - sender - 50%th percentile
+2024-05-06 19:36:21,830 - INFO - sender - | 1 | 30 | 1 | 5.62 | -6847.61 | 1.19 | 6852.16 |
+2024-05-06 19:36:21,830 - INFO - sender - 95%th percentile
+2024-05-06 19:36:21,831 - INFO - sender - | 1 | 30 | 1 | 27.08 | -6829.46 | 1.76 | 6854.51 |
+2024-05-06 19:36:21,831 - INFO - sender - 95% ave
+2024-05-06 19:36:21,831 - INFO - sender - | 1 | 30 | 1 | 7.68 | -6844.82 | 1.13 | 6852.67 |
+2024-05-06 19:36:21,832 - INFO - sender - Sender stopped
+2024-05-06 19:36:31,432 - INFO - config-offload-test - Testing the t_offload+t_reply+t_beta overall latency with FPS=1200...total 600 frames, with 1 sender and 1 receiver
+2024-05-06 19:36:31,433 - INFO - config-offload-test - This running parameters: [{'ws_uris': ['ws://192.168.31.236:8765'], 'data_loader': <server.component.dataloader.ImageFPSDataLoader object at 0x7f814b8b3df0>}]
+2024-05-06 19:36:31,433 - INFO - peer - Peer 1 is created with 1 senders and 0 receivers.
+2024-05-06 19:36:32,435 - INFO - sender - Sender ws://192.168.31.236:8765 started
+2024-05-06 19:36:34,285 - INFO - sender - Processing time: 1.19 ms
+2024-05-06 19:36:34,285 - INFO - sender - End-to-end time: 11.10 ms
+2024-05-06 19:36:34,285 - INFO - sender - the below data only e2e and process time are valid
+2024-05-06 19:36:34,285 - INFO - sender - | sender num | sender fps | batch size | **e2e** latency (ms) | offload time | process time | reply time |
+2024-05-06 19:36:34,285 - INFO - sender - Average
+2024-05-06 19:36:34,285 - INFO - sender - | 1 | 30 | 1 | 11.10 | -6843.05 | 1.19 | 6852.95 |
+2024-05-06 19:36:34,286 - INFO - sender - 50%th percentile
+2024-05-06 19:36:34,287 - INFO - sender - | 1 | 30 | 1 | 6.57 | -6847.56 | 1.14 | 6852.51 |
+2024-05-06 19:36:34,287 - INFO - sender - 95%th percentile
+2024-05-06 19:36:34,289 - INFO - sender - | 1 | 30 | 1 | 35.53 | -6820.39 | 2.37 | 6854.60 |
+2024-05-06 19:36:34,289 - INFO - sender - 95% ave
+2024-05-06 19:36:34,289 - INFO - sender - | 1 | 30 | 1 | 9.63 | -6843.05 | 1.08 | 6852.95 |
+2024-05-06 19:36:34,289 - INFO - sender - Sender stopped
+2024-05-06 19:36:46,151 - INFO - config-offload-test - Testing the t_offload+t_reply+t_beta overall latency with FPS=1800...total 600 frames, with 1 sender and 1 receiver
+2024-05-06 19:36:46,151 - INFO - config-offload-test - This running parameters: [{'ws_uris': ['ws://192.168.31.236:8765'], 'data_loader': <server.component.dataloader.ImageFPSDataLoader object at 0x7f08cb24bdf0>}]
+2024-05-06 19:36:46,151 - INFO - peer - Peer 1 is created with 1 senders and 0 receivers.
+2024-05-06 19:36:47,154 - INFO - sender - Sender ws://192.168.31.236:8765 started
+2024-05-06 19:36:49,017 - INFO - sender - Processing time: 1.27 ms
+2024-05-06 19:36:49,017 - INFO - sender - End-to-end time: 10.02 ms
+2024-05-06 19:36:49,017 - INFO - sender - the below data only e2e and process time are valid
+2024-05-06 19:36:49,018 - INFO - sender - | sender num | sender fps | batch size | **e2e** latency (ms) | offload time | process time | reply time |
+2024-05-06 19:36:49,018 - INFO - sender - Average
+2024-05-06 19:36:49,018 - INFO - sender - | 1 | 30 | 1 | 10.02 | -6844.61 | 1.27 | 6853.37 |
+2024-05-06 19:36:49,018 - INFO - sender - 50%th percentile
+2024-05-06 19:36:49,019 - INFO - sender - | 1 | 30 | 1 | 5.63 | -6848.14 | 1.16 | 6852.71 |
+2024-05-06 19:36:49,019 - INFO - sender - 95%th percentile
+2024-05-06 19:36:49,020 - INFO - sender - | 1 | 30 | 1 | 30.48 | -6825.51 | 2.61 | 6854.92 |
+2024-05-06 19:36:49,020 - INFO - sender - 95% ave
+2024-05-06 19:36:49,020 - INFO - sender - | 1 | 30 | 1 | 8.14 | -6844.61 | 1.15 | 6853.37 |
+2024-05-06 19:36:49,021 - INFO - sender - Sender stopped
+2024-05-06 19:37:06,044 - INFO - config-offload-test - Testing the t_offload+t_reply+t_beta overall latency with FPS=3000...total 600 frames, with 1 sender and 1 receiver
+2024-05-06 19:37:06,044 - INFO - config-offload-test - This running parameters: [{'ws_uris': ['ws://192.168.31.236:8765'], 'data_loader': <server.component.dataloader.ImageFPSDataLoader object at 0x7fda77bbbdf0>}]
+2024-05-06 19:37:06,044 - INFO - peer - Peer 1 is created with 1 senders and 0 receivers.
+2024-05-06 19:37:07,046 - INFO - sender - Sender ws://192.168.31.236:8765 started
+2024-05-06 19:37:08,840 - INFO - sender - Processing time: 1.16 ms
+2024-05-06 19:37:08,841 - INFO - sender - End-to-end time: 10.64 ms
+2024-05-06 19:37:08,841 - INFO - sender - the below data only e2e and process time are valid
+2024-05-06 19:37:08,841 - INFO - sender - | sender num | sender fps | batch size | **e2e** latency (ms) | offload time | process time | reply time |
+2024-05-06 19:37:08,841 - INFO - sender - Average
+2024-05-06 19:37:08,841 - INFO - sender - | 1 | 30 | 1 | 10.64 | -6844.05 | 1.16 | 6853.53 |
+2024-05-06 19:37:08,841 - INFO - sender - 50%th percentile
+2024-05-06 19:37:08,842 - INFO - sender - | 1 | 30 | 1 | 7.57 | -6848.38 | 1.14 | 6853.07 |
+2024-05-06 19:37:08,842 - INFO - sender - 95%th percentile
+2024-05-06 19:37:08,843 - INFO - sender - | 1 | 30 | 1 | 33.32 | -6822.05 | 1.97 | 6855.33 |
+2024-05-06 19:37:08,843 - INFO - sender - 95% ave
+2024-05-06 19:37:08,843 - INFO - sender - | 1 | 30 | 1 | 9.17 | -6844.05 | 1.06 | 6853.53 |
+2024-05-06 19:37:08,843 - INFO - sender - Sender stopped

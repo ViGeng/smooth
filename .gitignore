@@ -1,0 +1,9 @@
+*.pt
+server/component/__pycache__/*
+server/__pycache__/*
+.idea/
+*.pyc
+datasets/coco/*
+datasets/coco2017labels-segments.zip
+mq/rabbitmq_data/*
+heads/data/
