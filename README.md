@@ -19,7 +19,8 @@ It takes a while to clean up the code and prepare the documentation for a projec
 | --- | --- |
 | Heads Training | Released✅ |
 | Raw/Processed Data | Released✅ |
-| Offloading System | coming soon⏳ This is planned to be released together with our new paper based on this offloading system. Hopefully by June! |
+| heads weights and monothlic model weights | Realeased✅ [OneDrive](https://tumde-my.sharepoint.com/:f:/g/personal/wei_geng_tum_de/IgCEyhtJS1hDSYdE2gMMEs4NAa6OBk-ZBHbBeJ8rnN8zjvk?e=0GOkKe) (University Policy 56days expiry, pls contact us for updated links) |
+| Offloading System | coming soon⏳ This is planned to be released as a new repository together with our new paper based on this offloading system. Hopefully by June! |
 
 ## Citation
 
